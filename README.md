@@ -1,6 +1,6 @@
 # Hugon
 
-Hugon is a lightweight C++17 JSON library. It based on implementation by Bohdan R. Rau <ethanak@polip.com> in Python to parse huge JSON data that doesn't fit into memory. It consists of 3 parts:
+Hugon is a lightweight C++17 JSON library. It based on implementation by Bohdan R. Rau <ethanak[at]polip.com> in Python to parse huge JSON data that doesn't fit into memory. It consists of 3 parts:
 
 - SAX-style streaming parser (`HugonParser` + `HugonHandler`)
 - DOM-style parser (`JsonDomParser`)
