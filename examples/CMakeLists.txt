@@ -1,0 +1,8 @@
+add_executable(example1_pretty_print example1_pretty_print.cpp)
+target_link_libraries(example1_pretty_print PRIVATE hugon::hugon)
+
+add_executable(example2_alter_json example2_alter_json.cpp)
+target_link_libraries(example2_alter_json PRIVATE hugon::hugon)
+
+add_executable(example3_create_json example3_create_json.cpp)
+target_link_libraries(example3_create_json PRIVATE hugon::hugon)
