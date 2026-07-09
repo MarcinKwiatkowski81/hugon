@@ -1,0 +1,4 @@
+test_minijson 2 0.00197727
+test_minijson_nofloat 2 0.00193477
+test_hugon 2 0.0211898
+---

@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/mkwiatkowski/Projects/hugon/build/cmake_install.cmake",
+		"/home/mkwiatkowski/Projects/hugon/build/tests/cmake_install.cmake",
+		"/home/mkwiatkowski/Projects/hugon/build/arduino/extras/test/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

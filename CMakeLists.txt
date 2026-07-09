@@ -70,6 +70,8 @@ option(HUGON_BUILD_EXAMPLES "Build examples"    ON)
 if(HUGON_BUILD_TESTS)
     enable_testing()
     add_subdirectory(tests)
+    # MiniJson Arduino library – desktop test suite
+    add_subdirectory(arduino/extras/test)
 endif()
 
 if(HUGON_BUILD_EXAMPLES)

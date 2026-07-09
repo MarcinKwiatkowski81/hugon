@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhugon.a CMakeFiles/hugon.dir/src/Hugon.cpp.o CMakeFiles/hugon.dir/src/DJSON.cpp.o
+/usr/bin/ranlib libhugon.a

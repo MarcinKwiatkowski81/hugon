@@ -1,0 +1,94 @@
+Start testing: Jul 09 21:10 CEST
+----------------------------------------------------------
+1/3 Testing: test_hugon
+1/3 Test: test_hugon
+Command: "/home/mkwiatkowski/Projects/hugon/build_ci/tests/test_hugon"
+Directory: /home/mkwiatkowski/Projects/hugon/build_ci/tests
+"test_hugon" start time: Jul 09 21:10 CEST
+Output:
+----------------------------------------------------------
+[primitives]
+[arrays]
+[objects]
+[streaming]
+[round-trip]
+[generator]
+[errors]
+[schemaBig.json]
+[schemaBig.json streaming]
+[schemaBig.json round-trip]
+
+All 111 checks passed.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"test_hugon" end time: Jul 09 21:10 CEST
+"test_hugon" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/3 Testing: test_minijson
+2/3 Test: test_minijson
+Command: "/home/mkwiatkowski/Projects/hugon/build_ci/arduino/extras/test/test_minijson"
+Directory: /home/mkwiatkowski/Projects/hugon/build_ci/arduino/extras/test
+"test_minijson" start time: Jul 09 21:10 CEST
+Output:
+----------------------------------------------------------
+[primitives]
+[objects]
+[arrays]
+[nesting]
+[string escapes]
+[numbers]
+[streaming]
+[whitespace]
+[buffer overflow]
+[stack overflow]
+[errors]
+[flush]
+[reset]
+[MINIJSON_NO_FLOAT]
+[event ordering]
+
+All 238 checks passed.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_minijson" end time: Jul 09 21:10 CEST
+"test_minijson" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/3 Testing: test_minijson_nofloat
+3/3 Test: test_minijson_nofloat
+Command: "/home/mkwiatkowski/Projects/hugon/build_ci/arduino/extras/test/test_minijson_nofloat"
+Directory: /home/mkwiatkowski/Projects/hugon/build_ci/arduino/extras/test
+"test_minijson_nofloat" start time: Jul 09 21:10 CEST
+Output:
+----------------------------------------------------------
+[primitives]
+[objects]
+[arrays]
+[nesting]
+[string escapes]
+[numbers]
+[streaming]
+[whitespace]
+[buffer overflow]
+[stack overflow]
+[errors]
+[flush]
+[reset]
+[MINIJSON_NO_FLOAT]
+[event ordering]
+
+All 226 checks passed.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_minijson_nofloat" end time: Jul 09 21:10 CEST
+"test_minijson_nofloat" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jul 09 21:10 CEST
